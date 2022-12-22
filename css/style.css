@@ -1,12 +1,17 @@
-/*--------------------------------------------------------------
-Project
---------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
 .l-header {
   margin: 0 1em 1em 1em;
   padding: 1em 1em;
   border-bottom: 1px solid #aaa;
 }
 
+/*--------------------------------------------------------------
+Project
+--------------------------------------------------------------*/
+.description {
+  font-family: "Open Sans", sans-serif;
+}
 .description__ttl {
   font-size: 1.2em;
   margin: 1em 0;
