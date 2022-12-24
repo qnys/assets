@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
-
 .l-header {
   margin: 0 1em 1em 1em;
   padding: 1em 1em;
@@ -20,16 +19,13 @@ Project
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
 }
-
 .description__ttl {
   font-size: 1.5em;
   margin: 1em 0;
 }
-
 .description__txt {
   line-height: 1.5em;
 }
-
 .description__txt p {
   margin-top: 0.8em;
 }
@@ -42,7 +38,6 @@ Project
   border: 1px solid #aaa;
   border-radius: 8px;
 }
-
 .u-desc p {
   margin-top: 1em;
 }
@@ -51,6 +46,4 @@ Project
   content: "";
   display: block;
   clear: both;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
