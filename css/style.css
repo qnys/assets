@@ -6,6 +6,12 @@
   border-bottom: 1px solid #aaa;
 }
 
+.l-nav {
+  margin: 0 1em 0 1em;
+  padding: 1em 1em;
+  border-bottom: 1px solid #aaa;
+}
+
 .l-footer {
   margin: 2em 1em 0 1em;
   padding: 1em;
@@ -15,6 +21,11 @@
 /*--------------------------------------------------------------
 Project
 --------------------------------------------------------------*/
+.navigation__item a {
+  font-family: "Open Sans", sans-serif;
+  color: cadetblue;
+}
+
 .description {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
@@ -30,6 +41,9 @@ Project
   margin-top: 0.8em;
 }
 
+/*--------------------------------------------------------------
+Utility
+--------------------------------------------------------------*/
 .u-desc {
   font-size: 16px;
   line-height: 1.5em;
