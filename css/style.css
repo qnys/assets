@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
+:root {
+  font-size: 18px;
+  color: #444;
+  font-family: "Open Sans", sans-serif;
+}
+
 .l-header {
   margin: 0 1em 2em 1em;
   padding: 1em 1em;
@@ -22,6 +28,11 @@
 Project
 --------------------------------------------------------------*/
 .navigation__item a {
+  font-family: "Open Sans", sans-serif;
+  color: cadetblue;
+}
+
+.p-navigation__item a {
   font-family: "Open Sans", sans-serif;
   color: cadetblue;
 }
@@ -54,6 +65,39 @@ Project
   margin-left: 1em;
 }
 
+.p-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+.p-description__ttl {
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+.p-description__txt {
+  line-height: 1.5em;
+}
+.p-description__txt p {
+  margin-top: 0.8em;
+}
+.p-description__list {
+  margin: 0.5em 0 0.5em 1em;
+}
+.p-description__list__item {
+  display: flex;
+}
+.p-description__list__ttl {
+  min-width: 12em;
+}
+.p-description__list__body {
+  flex-wrap: wrap;
+  margin-left: 1em;
+}
+
+.p-content__title {
+  font-size: 1.2em;
+  margin: 1em auto;
+}
+
 /*--------------------------------------------------------------
 Utility
 --------------------------------------------------------------*/
@@ -77,4 +121,21 @@ Utility
 
 .u-flex-col {
   flex-direction: column;
+}
+
+.u-inner {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.u-content__title {
+  font-size: 1.2em;
+  margin: 1em auto;
+}
+
+@media screen and (max-width: 1072px) {
+  .u-inner {
+    width: auto;
+    margin: auto 2em;
+  }
 }/*# sourceMappingURL=style.css.map */
