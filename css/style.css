@@ -105,11 +105,17 @@ Utility
   font-size: 16px;
   line-height: 1.5em;
   margin: 2em auto;
-  padding: 0 1em 1em 1em;
+  padding: 0 1em;
   border: 1px solid #aaa;
   border-radius: 8px;
 }
 .u-desc p {
+  margin: 1em auto;
+}
+.u-desc::after {
+  content: "";
+  display: block;
+  width: 100%;
   margin-top: 1em;
 }
 
@@ -126,11 +132,6 @@ Utility
 .u-inner {
   width: 1000px;
   margin: 0 auto;
-}
-
-.u-content__title {
-  font-size: 1.2em;
-  margin: 1em auto;
 }
 
 @media screen and (max-width: 1072px) {
