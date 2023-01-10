@@ -134,6 +134,10 @@ Utility
   margin: 0 auto;
 }
 
+.u-red {
+  color: rgb(253, 29, 29);
+}
+
 @media screen and (max-width: 1072px) {
   .u-inner {
     width: auto;
