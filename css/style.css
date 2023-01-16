@@ -43,6 +43,7 @@ Project
 }
 .description__ttl {
   font-size: 1.5em;
+  line-height: 1.2em;
   margin: 1em 0;
 }
 .description__txt {
@@ -71,6 +72,7 @@ Project
 }
 .p-description__ttl {
   font-size: 1.5em;
+  line-height: 1.2em;
   margin: 1em 0;
 }
 .p-description__txt {
