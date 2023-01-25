@@ -7,20 +7,20 @@
 }
 
 .l-header {
-  margin: 0 1em 2em 1em;
-  padding: 1em 1em;
+  margin: auto 1em 2em 1em;
+  padding: 0 1em;
   border-bottom: 1px solid #aaa;
 }
 
 .l-nav {
-  margin: 0 1em 0 1em;
+  margin: auto 1em 2em 1em;
   padding: 1em 1em;
   border-bottom: 1px solid #aaa;
 }
 
 .l-footer {
-  margin: 2em 1em 0 1em;
-  padding: 1em;
+  margin: 2em 1em auto 1em;
+  padding: 0 1em;
   border-top: 1px solid #aaa;
 }
 
@@ -41,16 +41,24 @@ Project
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
 }
+.description__body {
+  width: 1000px;
+  margin: 0 auto;
+}
 .description__ttl {
   font-size: 1.5em;
   line-height: 1.2em;
-  margin: 1em 0;
+  margin: 1em auto;
 }
 .description__txt {
   line-height: 1.5em;
 }
 .description__txt p {
-  margin-top: 0.8em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.description__txt p img {
+  max-width: 100%;
 }
 .description__list {
   margin: 0.5em 0 0.5em 1em;
@@ -70,16 +78,24 @@ Project
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
 }
+.p-description__body {
+  width: 1000px;
+  margin: 0 auto;
+}
 .p-description__ttl {
   font-size: 1.5em;
   line-height: 1.2em;
-  margin: 1em 0;
+  margin: 1em auto;
 }
 .p-description__txt {
   line-height: 1.5em;
 }
 .p-description__txt p {
-  margin-top: 0.8em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.p-description__txt p img {
+  max-width: 100%;
 }
 .p-description__list {
   margin: 0.5em 0 0.5em 1em;
@@ -100,6 +116,14 @@ Project
   margin: 1em auto;
 }
 
+@media screen and (max-width: 1072px) {
+  .description__body {
+    width: auto;
+  }
+  .p-description__body {
+    width: auto;
+  }
+}
 /*--------------------------------------------------------------
 Utility
 --------------------------------------------------------------*/
