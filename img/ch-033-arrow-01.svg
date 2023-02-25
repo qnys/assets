@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="22" viewBox="0 0 38 22">
+  <defs>
+    <path id="a" d="M0 0h38v22H0z"/>
+  </defs>
+  <clipPath id="b">
+    <use xlink:href="#a" overflow="visible"/>
+  </clipPath>
+  <path clip-path="url(#b)" fill="#666" d="M.627.546c-.804.759-.839 2.024-.081 2.827l17 18c.378.4.904.627 1.454.627s1.076-.227 1.454-.627l17-18c.365-.386.546-.88.546-1.372 0-.532-.21-1.062-.627-1.455-.803-.758-2.069-.722-2.827.081L19 17.087 3.454.627C2.696-.176 1.43-.212.627.546"/>
+</svg>
