@@ -115,6 +115,16 @@ Project
   font-size: 1.2em;
   margin: 1em auto;
 }
+.p-content__txt {
+  line-height: 1.5em;
+}
+.p-content__txt p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.p-content__txt p img {
+  max-width: 100%;
+}
 
 @media screen and (max-width: 1072px) {
   .description__body {
